@@ -5,5 +5,5 @@
 ## Categorías de Proyectos:
 
 1. **Clasificación de Imágenes**
-   - [Proyecto CIFAR-10](./ComputerVision-CIFAR10/Cifar10.md): Clasificación de imágenes utilizando una red neuronal convolucional (CNN).
-   - [Proyecto MNIST](./Clasificacion_Imagenes/proyecto_mnist/README.md): Clasificación de dígitos manuscritos utilizando una CNN.
+   - [Proyecto CIFAR-10](./ComputerVision-CIFAR10): Clasificación de imágenes utilizando una red neuronal convolucional (CNN).
+   - [Proyecto MNIST](./ComputerVision-MNIST): Clasificación de dígitos manuscritos utilizando una CNN.
