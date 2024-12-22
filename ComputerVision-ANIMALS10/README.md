@@ -21,3 +21,5 @@ Para medir el rendimiento del modelo preentrenado, hice 2 pruebas: el modelo pre
 ### Feature extraction - VGG16:
 Accuracy: 0.8495795130729675 y Loss: 0.46922340989112854
 
+### Fine-Tuning - VGG16:
+Accuracy: 0.9122706651687622 y Loss: 0.33523982763290405
