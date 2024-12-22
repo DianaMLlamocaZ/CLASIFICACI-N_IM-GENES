@@ -10,7 +10,7 @@ Para medir el rendimiento del modelo preentrenado, hice 2 pruebas: el modelo pre
 
 -----
 
-```**Nota:** **"feature extraction"** se refiere a *usar el modelo preentrenado* para extraer características del nuevo conjunto de datos, *sin modificar los pesos del modelo*. Mientras que **"fine-tuning"** implica *entrenar más el modelo*, previamente entrenado, en un nuevo conjunto de datos, lo que *permite actualizar algunos de sus pesos* para adaptarse mejor a la nueva tarea.```
+**Nota:** **"feature extraction"** se refiere a *usar el modelo preentrenado* para extraer características del nuevo conjunto de datos, *sin modificar los pesos del modelo*. Mientras que **"fine-tuning"** implica *entrenar más el modelo*, previamente entrenado, en un nuevo conjunto de datos, lo que *permite actualizar algunos de sus pesos* para adaptarse mejor a la nueva tarea.
 
 =====
 
