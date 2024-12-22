@@ -24,7 +24,7 @@ Para medir el rendimiento del modelo preentrenado, hice 2 pruebas: el modelo pre
 
 ![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/SFT-1.JPG)
 
-- Accuracy: 84.95%
+- **Accuracy**: 84.95%
 
 - Gráficas del **accuracy**:
 
@@ -36,13 +36,23 @@ Para medir el rendimiento del modelo preentrenado, hice 2 pruebas: el modelo pre
 
 -----
 
-Accuracy: 0.8495795130729675 y Loss: 0.46922340989112854
-
------
-
 ### Fine-Tuning - VGG16:
 Accuracy: 91.23%
 
+- Métricas del **accuracy** y **loss**:
+
+![]()
+
+- **Accuracy**: 91.23%
+
+- Gráficas del **accuracy**:
+
+![]()
+
+- Gráficas del **loss**:
+
+![]()
+
 -----
 
-Accuracy: 0.9122706651687622 y Loss: 0.33523982763290405
+
