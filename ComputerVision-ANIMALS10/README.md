@@ -53,6 +53,7 @@ Accuracy: 91.23%
 
 ![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/FT-3.JPG)
 
------
+# Conclusión:
 
-
+Al usar el modelo preentrenado para feature extraction, se obtuvo un accuracy menor al valor que se obtuvo aplicando fine-tuning al modelo preentrenado.
+Es decir, el rendimiento mejoró cuando se aplicó fine-tuning con el modelo preentrenado VGG16.
