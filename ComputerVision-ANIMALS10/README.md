@@ -66,7 +66,7 @@ Es decir, el rendimiento mejoró cuando se aplicó fine-tuning al modelo preentr
 # Mejoras:
 
 - Agregar más capas densas.
-- Probar el accuracy del modelo cuando las capas "unfreeze" cambien (ya sea disminuyendo la cantidad o aumentándolas).
+- Probar el accuracy del modelo cuando las capas "unfreeze" cambien (ya sea disminuyendo la cantidad o aumentándola).
 - Probar con diferentes optimizadores y learning rates.
 - Usar data augmentation.
 - Implementar técnicas de regularización para observar el impacto en el performance del modelo.
