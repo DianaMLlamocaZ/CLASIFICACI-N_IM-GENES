@@ -41,17 +41,17 @@ Accuracy: 91.23%
 
 - Métricas del **accuracy** y **loss**:
 
-![]()
+![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/FT-1.JPG)
 
 - **Accuracy**: 91.23%
 
 - Gráficas del **accuracy**:
 
-![]()
+![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/FT-2.JPG)
 
 - Gráficas del **loss**:
 
-![]()
+![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/FT-3.JPG)
 
 -----
 
