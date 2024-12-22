@@ -19,7 +19,20 @@ Para medir el rendimiento del modelo preentrenado, hice 2 pruebas: el modelo pre
 ## Feature extraction
 
 ### Feature extraction - VGG16:
-Accuracy: 84.95%
+
+- Métricas del **accuracy** y **loss**:
+
+![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/SFT-1.JPG)
+
+- Accuracy: 84.95%
+
+- Gráficas del **accuracy**:
+
+![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/SFT-2.JPG)
+
+- Gráficas del **loss**:
+
+![](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-ANIMALS10/ResultadosMetricas/SFT-3.JPG)
 
 -----
 
