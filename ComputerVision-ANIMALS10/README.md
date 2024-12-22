@@ -56,4 +56,5 @@ Accuracy: 91.23%
 # Conclusión:
 
 Al usar el modelo preentrenado para feature extraction, se obtuvo un accuracy menor al valor que se obtuvo aplicando fine-tuning al modelo preentrenado.
-Es decir, el rendimiento mejoró cuando se aplicó fine-tuning con el modelo preentrenado VGG16.
+
+Es decir, el rendimiento mejoró cuando se aplicó fine-tuning al modelo preentrenado VGG16.
