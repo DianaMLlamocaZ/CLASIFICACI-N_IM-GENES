@@ -1,4 +1,4 @@
-# Detección de retinopatía diabética usando redes neuronales convolucionales
+# Detección de retinopatía diabética, mediante imágenes, usando redes neuronales convolucionales
 Este proyecto se basa en la detección de retinopatía diabética, mediante imágenes, haciendo uso de una red neuronal convolucional preentrenada, VGG16:
 - Una red entrenada con fine-tuning
 - Una red entrena sin fine-tuning
