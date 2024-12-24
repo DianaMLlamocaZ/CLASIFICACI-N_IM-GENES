@@ -44,3 +44,9 @@ Aquí se comparan la métrica clave para ambos modelos:
 | Métrica      | Modelo sin Fine-Tuning | Modelo con Fine-Tuning |
 |--------------|------------------------|------------------------|
 |  Accuracy    | 92.64%                 | 95.67%                 |
+
+
+### 2.2) Gráficas de desempeño
+- Modelo sin Fine-Tuning:
+  - Accuracy: Training vs Validation 
+    ![]()
