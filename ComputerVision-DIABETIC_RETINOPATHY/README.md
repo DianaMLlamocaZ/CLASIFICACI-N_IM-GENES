@@ -68,9 +68,11 @@ Aquí se compara la métrica clave para ambos modelos:
 ### 3.1.1) Modelo sin Fine-Tuning
 
 - Imagen con presencia de retinopatía diabética:
+  
 ![Presencia-RD](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Modelo-NoFT-DA-RD.JPG)
 
 - Imagen con no presencia de retinopatía diabética:
+  
 ![](NoPresencial-RD)(https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Modelo-NoFT-DA-RD.JPG)
 
 
