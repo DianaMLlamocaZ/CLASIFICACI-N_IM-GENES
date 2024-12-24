@@ -48,17 +48,21 @@ Aquí se compara la métrica clave para ambos modelos:
 
 ### 2.2) Gráficas de desempeño
 - Modelo sin Fine-Tuning:
-  - Accuracy: Training vs Validation 
+  - Accuracy: Training vs Validation
+    
     ![Accuracy](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Accuracy%20-%20DA%20-%20NFT.JPG)
 
   - Loss: Training vs Validation
+    
     ![Loss](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Loss%20-%20DA%20-%20NFT.JPG)
 
 - Modelo con Fine-Tuning:
   - Accuracy: Training vs Validation
+    
     ![Accuracy](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Accuracy%20-%20DA%20-%20FT.JPG)
 
   - Loss: Training vs Validation
+    
     ![Loss](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Loss%20-%20DA%20-%20FT.JPG)
 
 -----
