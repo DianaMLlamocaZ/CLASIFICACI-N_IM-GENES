@@ -8,7 +8,7 @@ Este proyecto se basa en la detección de retinopatía diabética, mediante imá
 * Desarrollo de una página web en Streamlit para cargar las imágenes y predicción.
 
 **Datos utilizados:**
-- (Diagnosis of Diabetic Retinopathy)[https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy/data]
+- Diagnosis of Diabetic Retinopathy: [https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy/data]
 
 -----
 
