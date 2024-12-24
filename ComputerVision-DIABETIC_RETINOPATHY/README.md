@@ -26,3 +26,10 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 
 
 ### 1.2) Modelo con Fine-Tuning
+#### **Técnicas:** 
+- Data augmentation para que el modelo se entrene con más variabilidad.
+- *Unfreeze* de las 2 últimas capas del modelo preentrenado. Es decir, entrenaré las 2 últimas capas de la base convolucional de VGG16.
+- 3 capas densas:
+  - 500 neuronas, 100 neuronas, 2 neuronas (clases a predecir: presencia o no presencia)
+- Capas de dropout:
+  - 2 capas de dropout (0.5), luego de las capas densas, a excepción de la capa de salida.
