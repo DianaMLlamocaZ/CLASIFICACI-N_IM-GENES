@@ -60,3 +60,8 @@ Aquí se compara la métrica clave para ambos modelos:
 
   - Loss: Training vs Validation
     ![Loss](link)
+
+-----
+
+# 3) Ejemplos de predicciones:
+### 3.1.1) Modelo sin Fine-Tuning
