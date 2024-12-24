@@ -33,3 +33,14 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
   - 500 neuronas, 100 neuronas, 2 neuronas (clases a predecir: presencia o no presencia)
 - Capas de dropout:
   - 2 capas de dropout (0.5), luego de las capas densas, a excepción de la capa de salida.
+
+-----
+
+# 2) Comparativa de rendimiento
+
+### 2.1) Métricas de rendimiento
+Aquí se comparan la métrica clave para ambos modelos:
+
+| Métrica      | Modelo sin Fine-Tuning | Modelo con Fine-Tuning |
+|--------------|------------------------|------------------------|
+|  Accuracy    | 92.64%                 | 95.67%                 |
