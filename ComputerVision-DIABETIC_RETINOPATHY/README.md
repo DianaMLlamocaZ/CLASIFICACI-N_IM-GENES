@@ -39,7 +39,7 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 # 2) Comparativa de rendimiento
 
 ### 2.1) Métricas de rendimiento
-Aquí se comparan la métrica clave para ambos modelos:
+Aquí se compara la métrica clave para ambos modelos:
 
 | Métrica      | Modelo sin Fine-Tuning | Modelo con Fine-Tuning |
 |--------------|------------------------|------------------------|
@@ -49,4 +49,14 @@ Aquí se comparan la métrica clave para ambos modelos:
 ### 2.2) Gráficas de desempeño
 - Modelo sin Fine-Tuning:
   - Accuracy: Training vs Validation 
-    ![]()
+    ![Accuracy](link)
+
+  - Loss: Training vs Validation
+    ![Loss](link)
+
+- Modelo con Fine-Tuning:
+  - Accuracy: Training vs Validation
+    ![Accuracy](link)
+
+  - Loss: Training vs Validation
+    ![Loss](link)
