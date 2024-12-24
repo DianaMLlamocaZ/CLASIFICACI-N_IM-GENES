@@ -17,5 +17,12 @@ Este proyecto se basa en la detección de retinopatía diabética, mediante imá
 ### 1.1) Modelo sin Fine-Tuning
 El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 
-- **Entrenamiento:** 
-- 
+- **Técnicas:** 
+- Data augmentation para que el modelo se entrene con más variabilidad.
+- 3 capas densas:
+  - 500 neuronas, 100 neuronas, 2 neuronas (clases a predecir: presencia o no presencia)
+- Capas de dropout:
+  - 2 capas de dropout (0.5), luego de las capas densas, a excepción de la capa de salida.
+
+
+### 1.2) Modelo con Fine-Tuning
