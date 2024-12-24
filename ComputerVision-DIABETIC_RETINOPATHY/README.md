@@ -73,8 +73,29 @@ Aquí se compara la métrica clave para ambos modelos:
 
 - Imagen con no presencia de retinopatía diabética:
   
-![](NoPresencial-RD)(https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Modelo-NoFT-DA-RD.JPG)
+![NoPresencia-RD](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Modelo-NoFT-DA-RD.JPG)
 
 
 ### 3.1.2) Modelo con Fine-Tuning
-![]()
+
+- Imagen con presencia de retinopatía diabética:
+  
+![Presencia-RD](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Modelo-FT-DA-RD.JPG)
+
+- Imagen con no presencia de retinopatía diabética:
+
+![NoPresencia-RD](https://github.com/DianaMLlamocaZ/CLASIFICACION_IMAGENES/blob/main/ComputerVision-DIABETIC_RETINOPATHY/Imagenes-Prueba/Modelo-FT-DA-NRD.JPG)
+
+-----
+
+# 4) Conclusiones:
+- **Rendimiento:** El modelo con fine-tuning supera al modelo sin fine-tuning respecto al accuracy.
+
+- **Uso en tiempo real:** Ambos modelos ofrecen resultados similares en la aplicación web.
+
+-----
+
+# 5) Mejoras futuras
+
+Ambos modelos fallan en la predicción cuando hay **muy poca iluminación** en las imágenes. Por lo que la mejora sería user data augmentation para aplicar la transformación de disminuir el brillo de algunas imágenes para mejorar la generalidad del modelo, o incluso generar más imágenes con poca iluminación y entrenar al modelo añadiendo la nueva data.
+
