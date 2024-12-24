@@ -3,7 +3,7 @@ Este proyecto se basa en la detección de retinopatía diabética, mediante imá
 - Red entrenada con fine-tuning
 - Red entrena sin fine-tuning
 
-Importante:
+**Importante:**
 * Evaluación de ambos modelos en base a su rendimiento.
 * Desarrollo de una página web en Streamlit para cargar las imágenes y predicción.
 
