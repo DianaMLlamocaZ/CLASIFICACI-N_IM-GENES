@@ -1,4 +1,4 @@
-# Detección de neumonía mediante rayos X de torax
+# Detección de neumonía mediante rayos X de tórax
 Este proyecto se basa en la detección de neumonía mediante imágenes de rayos X de pacientes sanos frente a los afectados por neumonía.
 - Red entrenada con fine-tuning
 - Red entrena sin fine-tuning
