@@ -43,6 +43,7 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
   - 1000 neuronas (regularizador L2), 1 neurona (clases a predecir: presencia o no presencia)
 - Capa dropout (30%)
 - Batch normalization
+
 -----
 
 # 2) Comparativa de rendimiento
@@ -59,3 +60,15 @@ Aquí se compara la métrica clave para ambos modelos:
 **F-T:** Fine-Tuning
 
 **C-W:** Class-Weight
+
+------
+
+# 3) Conclusiones:
+- **Rendimiento:**
+  - Al aplicar class-weight, la métrica "specificity" aumentó. Lo cual es bueno, ya que el modelo experimentó un mejor performance al predecir la clase minoritaria.
+  - Al realizar Fine-Tuning al modelo, se tuvo un mejor performance, lo cual se evidencia en la tabla de comparativa de rendimiento.
+
+------
+
+# 4) Mejoras futuras:
+- Aplicar diferentes técnicas de balanceo de clases y comparar las métricas como specificity, accuracy y F1_Score.
