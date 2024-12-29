@@ -49,7 +49,7 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 # 2) Comparativa de rendimiento
 
 ### 2.1) Métricas de rendimiento
-Aquí se compara la métrica clave para ambos modelos:
+Aquí se compara la métrica clave para los diferentes modelos entrenados:
 
 | Métrica    |       NO F-T, NO C-W, L2      |     NO F-T, SÍ C-W, L2        |      NO F-T, SÍ C-W, L2, Dropout       |    SÍ F-T, SÍ C-W, L2, Dropout        |
 |------------|-------------------------------|-------------------------------|----------------------------------------|---------------------------------------|
