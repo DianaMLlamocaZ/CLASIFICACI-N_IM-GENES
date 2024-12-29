@@ -13,7 +13,7 @@ Este proyecto se basa en la detección de neumonía mediante imágenes de rayos 
 
 # 1) Comparación de modelos : Fine-Tuning vs Feature Extraction
 
-### 1.1) Modelo sin Fine-Tuning, no class weight
+### 1.1) Modelo sin Fine-Tuning, no class weight, L2 regularization
 El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 
 #### **Técnicas:** 
@@ -21,13 +21,13 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 - 2 capas densas:
   - 1000 neuronas (regularizador L2), 1 neurona (clases a predecir: presencia o no presencia)
 
-### 1.2) Modelo sin Fine-Tuning, sí classweight
+### 1.2) Modelo sin Fine-Tuning, sí classweight, L2 regularization
 #### **Técnicas:** 
 - Data augmentation para que el modelo se entrene con más variabilidad y class weight para el desbalanceo de clases.
 - 2 capas densas:
   - 1000 neuronas (regularizador L2), 1 neurona (clases a predecir: presencia o no presencia)
 
-### 1.3) Modelo no Fine-Tuning, sí classweight, Dropout
+### 1.3) Modelo no Fine-Tuning, sí classweight, L2 regularization, Dropout
 #### **Técnicas:** 
 - Data augmentation para que el modelo se entrene con más variabilidad y class weight para el desbalanceo de clases.
 - 2 capas densas:
@@ -35,7 +35,7 @@ El modelo sin fine-tuning se entrenó utilizando el modelo VGG16.
 - Capa dropout (30%)
 - Batch normalization
 
-### 1.4) Modelo no Fine-Tuning, sí classweight, Dropout
+### 1.4) Modelo no Fine-Tuning, sí classweight, L2 regularization, Dropout
 #### **Técnicas:** 
 - Data augmentation para que el modelo se entrene con más variabilidad y class weight para el desbalanceo de clases.
 - Unfreeze de las 2 últimas capas del modelo VGG16 --> última capa convolucional: block5_conv3 (Conv2D)
@@ -57,4 +57,5 @@ Aquí se compara la métrica clave para ambos modelos:
 |  F1_Score  | 86.09%                        | 88.96%                        | 86.89%                                 | 89.76%                                |
 
 **F-T:** Fine-Tuning
+
 **C-W:** Class-Weight
