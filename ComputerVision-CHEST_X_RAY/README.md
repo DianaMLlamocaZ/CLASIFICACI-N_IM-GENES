@@ -72,3 +72,4 @@ Aquí se compara la métrica clave para los diferentes modelos entrenados:
 
 # 4) Mejoras futuras:
 - Aplicar diferentes técnicas de balanceo de clases y comparar las métricas como specificity, accuracy y F1_Score.
+- Probar modelos preentrenados diferentes a VGG16 y evaluar performance.
