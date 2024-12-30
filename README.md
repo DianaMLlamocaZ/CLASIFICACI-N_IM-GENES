@@ -8,7 +8,7 @@
    - [Proyecto CIFAR-10](./ComputerVision-CIFAR10): Clasificación de imágenes utilizando una red neuronal convolucional (CNN).
    - [Proyecto MNIST](./ComputerVision-MNIST): Clasificación de dígitos manuscritos utilizando una CNN.
    - [Proyecto ANIMALS-10](./ComputerVision-ANIMALS10): Clasificación de animales en imágenes usando el modelo preentrenado VGG16.
-   - [Proyecto DIABETIC-RETINOPATHY](./ComputerVision-DIABETIC_RETINOPATHY): Detección de retinopatía diabética, mediante imágenes, usando redes neuronales convolucionales.
+   - [Proyecto DIABETIC-RETINOPATHY](./ComputerVision-DIABETIC_RETINOPATHY): Detección de retinopatía diabética, mediante imágenes, en tiempo real, usando redes neuronales convolucionales.
    - [Proyecto CHEST-X-RAY](./ComputerVision-CHEST_X_RAY): Detección de neumonía mediante imágenes de rayos X de pacientes.
 
 ## Contacto
